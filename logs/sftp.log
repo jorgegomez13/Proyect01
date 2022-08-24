@@ -1,0 +1,380 @@
+Aug 23 17:02:44 10.71.61.0 tmp109183284-7709 Connection from 10.71.61.0 port 50800 on 74.208.58.139 port 22
+Aug 23 17:02:45 10.71.61.0 tmp109183284-7709 Accepted password for tmp109183284-7709 from 10.71.61.0 port 50800 ssh2
+Aug 23 17:02:45 10.71.61.0 tmp109183284-7709 Starting session: subsystem 'sftp' for tmp109183284-7709 from 10.71.61.0 port 50800 id 0
+Aug 23 17:02:45 10.71.61.0 tmp109183284-7709 session opened for local user tmp109183284-7709 from [10.71.61.0]
+Aug 23 17:03:59 10.71.61.0 tmp109183284-90 Connection from 10.71.61.0 port 50884 on 74.208.58.139 port 22
+Aug 23 17:04:00 10.71.61.0 tmp109183284-90 Accepted password for tmp109183284-90 from 10.71.61.0 port 50884 ssh2
+Aug 23 17:04:01 10.71.61.0 tmp109183284-7709 mkdir name "/public_html" mode 0777
+Aug 23 17:04:01 10.71.61.0 tmp109183284-7709 [10.71.61.0|mkdir|0|0|511|0|0|2f7075626c69635f68746d6c|]
+Aug 23 17:10:25 10.71.60.0 u109183284 Connection from 10.71.60.0 port 48542 on 74.208.58.139 port 22
+Aug 23 17:10:25 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 48542 ssh2
+Aug 23 17:10:25 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 48542 id 0
+Aug 23 17:10:25 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 23 17:10:35 10.71.60.0 u109183284 rename old "/core" new "/public_html/core"
+Aug 23 17:10:35 10.71.60.0 u109183284 [10.71.60.0|rename|0|0|0|0|0|2f636f7265|2f7075626c69635f68746d6c2f636f7265]
+Aug 23 17:10:35 10.71.60.0 u109183284 rename old "/db" new "/public_html/db"
+Aug 23 17:10:35 10.71.60.0 u109183284 [10.71.60.0|rename|0|0|0|0|0|2f6462|2f7075626c69635f68746d6c2f6462]
+Aug 23 17:10:35 10.71.60.0 u109183284 rename old "/html" new "/public_html/html"
+Aug 23 17:10:35 10.71.60.0 u109183284 [10.71.60.0|rename|0|0|0|0|0|2f68746d6c|2f7075626c69635f68746d6c2f68746d6c]
+Aug 23 17:10:35 10.71.60.0 u109183284 rename old "/logs" new "/public_html/logs"
+Aug 23 17:10:35 10.71.60.0 u109183284 [10.71.60.0|rename|0|0|0|0|13|2f6c6f6773|2f7075626c69635f68746d6c2f6c6f6773]
+Aug 23 17:10:35 10.71.60.0 u109183284 sent status Permission denied
+Aug 23 17:10:35 10.71.60.0 u109183284 rename old "/views" new "/public_html/views"
+Aug 23 17:10:35 10.71.60.0 u109183284 [10.71.60.0|rename|0|0|0|0|0|2f7669657773|2f7075626c69635f68746d6c2f7669657773]
+Aug 23 17:10:35 10.71.60.0 u109183284 rename old "/.htaccess" new "/public_html/.htaccess"
+Aug 23 17:10:35 10.71.60.0 u109183284 [10.71.60.0|rename|0|0|0|0|0|2f2e6874616363657373|2f7075626c69635f68746d6c2f2e6874616363657373]
+Aug 23 17:10:36 10.71.60.0 u109183284 rename old "/index.php" new "/public_html/index.php"
+Aug 23 17:10:36 10.71.60.0 u109183284 [10.71.60.0|rename|0|0|0|0|0|2f696e6465782e706870|2f7075626c69635f68746d6c2f696e6465782e706870]
+Aug 23 17:10:39 10.71.60.0 u109183284 rename old "/logs" new "/public_html/logs"
+Aug 23 17:10:39 10.71.60.0 u109183284 [10.71.60.0|rename|0|0|0|0|13|2f6c6f6773|2f7075626c69635f68746d6c2f6c6f6773]
+Aug 23 17:10:39 10.71.60.0 u109183284 sent status Permission denied
+Aug 23 17:10:52 10.71.60.0 u109183284 rename old "/logs" new "/public_html/logs"
+Aug 23 17:10:52 10.71.60.0 u109183284 [10.71.60.0|rename|0|0|0|0|13|2f6c6f6773|2f7075626c69635f68746d6c2f6c6f6773]
+Aug 23 17:10:52 10.71.60.0 u109183284 sent status Permission denied
+Aug 23 17:11:08 10.71.60.0 u109183284 Connection from 10.71.60.0 port 48658 on 74.208.58.139 port 22
+Aug 23 17:11:09 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 48658 ssh2
+Aug 23 17:11:08 10.71.60.0 u109183284 Connection from 10.71.60.0 port 48656 on 74.208.58.139 port 22
+Aug 23 17:11:09 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 48656 ssh2
+Aug 23 17:11:09 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:11:09 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 48658 id 0
+Aug 23 17:11:09 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 48656 id 0
+Aug 23 17:11:09 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 23 17:11:09 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 23 17:11:09 10.71.60.0 u109183284 open "/logs/sftp.log" flags READ mode 0666
+Aug 23 17:11:09 10.71.60.0 u109183284 open "/logs/access.log.34.2" flags READ mode 0666
+Aug 23 17:11:10 10.71.60.0 u109183284 close "/logs/sftp.log" bytes read 4383 written 0
+Aug 23 17:11:10 10.71.60.0 u109183284 [10.71.60.0|get|1|4383|0|0|0|2f6c6f67732f736674702e6c6f67|]
+Aug 23 17:11:10 10.71.60.0 u109183284 close "/logs/access.log.34.2" bytes read 34976 written 0
+Aug 23 17:11:10 10.71.60.0 u109183284 [10.71.60.0|get|1|34976|0|0|0|2f6c6f67732f6163636573732e6c6f672e33342e32|]
+Aug 23 17:11:10 10.71.60.0 u109183284 open "/logs/access.log.34.1.gz" flags READ mode 0666
+Aug 23 17:11:10 10.71.60.0 u109183284 open "/logs/access.log.32.gz" flags READ mode 0666
+Aug 23 17:11:10 10.71.60.0 u109183284 close "/logs/access.log.34.1.gz" bytes read 1755 written 0
+Aug 23 17:11:10 10.71.60.0 u109183284 [10.71.60.0|get|0|1755|0|0|0|2f6c6f67732f6163636573732e6c6f672e33342e312e677a|]
+Aug 23 17:11:10 10.71.60.0 u109183284 close "/logs/access.log.32.gz" bytes read 10239 written 0
+Aug 23 17:11:10 10.71.60.0 u109183284 [10.71.60.0|get|0|10239|0|0|0|2f6c6f67732f6163636573732e6c6f672e33322e677a|]
+Aug 23 17:11:10 10.71.60.0 u109183284 open "/logs/access.log.33.7.gz" flags READ mode 0666
+Aug 23 17:11:10 10.71.60.0 u109183284 open "/logs/access.log.33.6.gz" flags READ mode 0666
+Aug 23 17:11:10 10.71.60.0 u109183284 close "/logs/access.log.33.7.gz" bytes read 1285 written 0
+Aug 23 17:11:10 10.71.60.0 u109183284 [10.71.60.0|get|0|1285|0|0|0|2f6c6f67732f6163636573732e6c6f672e33332e372e677a|]
+Aug 23 17:11:11 10.71.60.0 u109183284 close "/logs/access.log.33.6.gz" bytes read 1783 written 0
+Aug 23 17:11:11 10.71.60.0 u109183284 [10.71.60.0|get|1|1783|0|0|0|2f6c6f67732f6163636573732e6c6f672e33332e362e677a|]
+Aug 23 17:11:11 10.71.60.0 u109183284 open "/logs/access.log.33.5.gz" flags READ mode 0666
+Aug 23 17:11:11 10.71.60.0 u109183284 open "/logs/access.log.33.4.gz" flags READ mode 0666
+Aug 23 17:11:11 10.71.60.0 u109183284 close "/logs/access.log.33.5.gz" bytes read 2727 written 0
+Aug 23 17:11:11 10.71.60.0 u109183284 [10.71.60.0|get|0|2727|0|0|0|2f6c6f67732f6163636573732e6c6f672e33332e352e677a|]
+Aug 23 17:11:11 10.71.60.0 u109183284 close "/logs/access.log.33.4.gz" bytes read 3272 written 0
+Aug 23 17:11:11 10.71.60.0 u109183284 [10.71.60.0|get|0|3272|0|0|0|2f6c6f67732f6163636573732e6c6f672e33332e342e677a|]
+Aug 23 17:11:11 10.71.60.0 u109183284 open "/logs/access.log.33.3.gz" flags READ mode 0666
+Aug 23 17:11:11 10.71.60.0 u109183284 open "/logs/access.log.33.2.gz" flags READ mode 0666
+Aug 23 17:11:11 10.71.60.0 u109183284 close "/logs/access.log.33.3.gz" bytes read 3296 written 0
+Aug 23 17:11:11 10.71.60.0 u109183284 [10.71.60.0|get|0|3296|0|0|0|2f6c6f67732f6163636573732e6c6f672e33332e332e677a|]
+Aug 23 17:11:11 10.71.60.0 u109183284 close "/logs/access.log.33.2.gz" bytes read 3597 written 0
+Aug 23 17:11:11 10.71.60.0 u109183284 [10.71.60.0|get|0|3597|0|0|0|2f6c6f67732f6163636573732e6c6f672e33332e322e677a|]
+Aug 23 17:11:12 10.71.60.0 u109183284 open "/logs/access.log.33.1.gz" flags READ mode 0666
+Aug 23 17:11:12 10.71.60.0 u109183284 open "/logs/sftp.log.32.gz" flags READ mode 0666
+Aug 23 17:11:12 10.71.60.0 u109183284 close "/logs/access.log.33.1.gz" bytes read 2614 written 0
+Aug 23 17:11:12 10.71.60.0 u109183284 [10.71.60.0|get|0|2614|0|0|0|2f6c6f67732f6163636573732e6c6f672e33332e312e677a|]
+Aug 23 17:11:12 10.71.60.0 u109183284 close "/logs/sftp.log.32.gz" bytes read 1788 written 0
+Aug 23 17:11:12 10.71.60.0 u109183284 [10.71.60.0|get|0|1788|0|0|0|2f6c6f67732f736674702e6c6f672e33322e677a|]
+Aug 23 17:11:12 10.71.60.0 u109183284 open "/logs/last_traffic" flags READ mode 0666
+Aug 23 17:11:12 10.71.60.0 u109183284 close "/logs/last_traffic" bytes read 0 written 0
+Aug 23 17:11:12 10.71.60.0 u109183284 open "/logs/traffic.db" flags READ mode 0666
+Aug 23 17:11:12 10.71.60.0 u109183284 [10.71.60.0|get|0|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+Aug 23 17:11:12 10.71.60.0 u109183284 open "/logs/info.py" flags READ mode 0666
+Aug 23 17:11:12 10.71.60.0 u109183284 close "/logs/traffic.db" bytes read 12288 written 0
+Aug 23 17:11:12 10.71.60.0 u109183284 [10.71.60.0|get|0|12288|0|0|0|2f6c6f67732f747261666669632e6462|]
+Aug 23 17:11:13 10.71.60.0 u109183284 open "/logs/info.php5" flags READ mode 0666
+Aug 23 17:11:13 10.71.60.0 u109183284 close "/logs/info.py" bytes read 6384 written 0
+Aug 23 17:11:13 10.71.60.0 u109183284 [10.71.60.0|get|1|6384|0|0|0|2f6c6f67732f696e666f2e7079|]
+Aug 23 17:11:13 10.71.60.0 u109183284 close "/logs/info.php5" bytes read 21 written 0
+Aug 23 17:11:13 10.71.60.0 u109183284 [10.71.60.0|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Aug 23 17:11:13 10.71.60.0 u109183284 open "/logs/info.pl" flags READ mode 0666
+Aug 23 17:11:13 10.71.60.0 u109183284 open "/logs/.htaccess" flags READ mode 0666
+Aug 23 17:11:13 10.71.60.0 u109183284 close "/logs/info.pl" bytes read 4176 written 0
+Aug 23 17:11:13 10.71.60.0 u109183284 [10.71.60.0|get|0|4176|0|0|0|2f6c6f67732f696e666f2e706c|]
+Aug 23 17:11:13 10.71.60.0 u109183284 close "/logs/.htaccess" bytes read 268 written 0
+Aug 23 17:11:13 10.71.60.0 u109183284 [10.71.60.0|get|0|268|0|0|0|2f6c6f67732f2e6874616363657373|]
+Aug 23 17:11:13 10.71.60.0 u109183284 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Aug 23 17:11:13 10.71.60.0 u109183284 sent status Permission denied
+Aug 23 17:11:14 10.71.60.0 u109183284 open "/logs/traffic.html/08.html" flags READ mode 0666
+Aug 23 17:11:14 10.71.60.0 u109183284 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Aug 23 17:11:14 10.71.60.0 u109183284 sent status Permission denied
+Aug 23 17:11:14 10.71.60.0 u109183284 close "/logs/traffic.html/08.html" bytes read 5154 written 0
+Aug 23 17:11:14 10.71.60.0 u109183284 [10.71.60.0|get|0|5154|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30382e68746d6c|]
+Aug 23 17:11:14 10.71.60.0 u109183284 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Aug 23 17:11:14 10.71.60.0 u109183284 sent status Permission denied
+Aug 23 17:11:14 10.71.60.0 u109183284 open "/logs/traffic.html/index.html" flags READ mode 0666
+Aug 23 17:11:14 10.71.60.0 u109183284 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Aug 23 17:11:14 10.71.60.0 u109183284 close "/logs/traffic.html/index.html" bytes read 2474 written 0
+Aug 23 17:11:14 10.71.60.0 u109183284 [10.71.60.0|get|0|2474|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Aug 23 17:11:14 10.71.60.0 u109183284 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Aug 23 17:11:14 10.71.60.0 u109183284 [10.71.60.0|get|0|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Aug 23 17:11:15 10.71.60.0 u109183284 open "/logs/access.log.34.2" flags READ mode 0666
+Aug 23 17:11:15 10.71.60.0 u109183284 open "/public_html/index.php" flags READ mode 0666
+Aug 23 17:11:15 10.71.60.0 u109183284 close "/public_html/index.php" bytes read 1229 written 0
+Aug 23 17:11:15 10.71.60.0 u109183284 [10.71.60.0|get|0|1229|0|0|0|2f7075626c69635f68746d6c2f696e6465782e706870|]
+Aug 23 17:11:15 10.71.60.0 u109183284 close "/logs/access.log.34.2" bytes read 34976 written 0
+Aug 23 17:11:15 10.71.60.0 u109183284 [10.71.60.0|get|0|34976|0|0|0|2f6c6f67732f6163636573732e6c6f672e33342e32|]
+Aug 23 17:11:15 10.71.60.0 u109183284 open "/public_html/.htaccess" flags READ mode 0666
+Aug 23 17:11:15 10.71.60.0 u109183284 close "/public_html/.htaccess" bytes read 482 written 0
+Aug 23 17:11:15 10.71.60.0 u109183284 [10.71.60.0|get|0|482|0|0|0|2f7075626c69635f68746d6c2f2e6874616363657373|]
+Aug 23 17:11:15 10.71.60.0 u109183284 open "/public_html/core/core.php" flags READ mode 0666
+Aug 23 17:11:16 10.71.60.0 u109183284 close "/public_html/core/core.php" bytes read 465 written 0
+Aug 23 17:11:16 10.71.60.0 u109183284 [10.71.60.0|get|0|465|0|0|0|2f7075626c69635f68746d6c2f636f72652f636f72652e706870|]
+Aug 23 17:11:16 10.71.60.0 u109183284 open "/public_html/core/controllers/indexController.php" flags READ mode 0666
+Aug 23 17:11:16 10.71.60.0 u109183284 close "/public_html/core/controllers/indexController.php" bytes read 53 written 0
+Aug 23 17:11:16 10.71.60.0 u109183284 [10.71.60.0|get|0|53|0|0|0|2f7075626c69635f68746d6c2f636f72652f636f6e74726f6c6c6572732f696e646578436f6e74726f6c6c65722e706870|]
+Aug 23 17:11:16 10.71.60.0 u109183284 open "/public_html/core/controllers/errorController.php" flags READ mode 0666
+Aug 23 17:11:16 10.71.60.0 u109183284 open "/public_html/core/controllers/home_controller.php" flags READ mode 0666
+Aug 23 17:11:16 10.71.60.0 u109183284 close "/public_html/core/controllers/errorController.php" bytes read 447 written 0
+Aug 23 17:11:16 10.71.60.0 u109183284 [10.71.60.0|get|0|447|0|0|0|2f7075626c69635f68746d6c2f636f72652f636f6e74726f6c6c6572732f6572726f72436f6e74726f6c6c65722e706870|]
+Aug 23 17:11:16 10.71.60.0 u109183284 close "/public_html/core/controllers/home_controller.php" bytes read 89 written 0
+Aug 23 17:11:16 10.71.60.0 u109183284 [10.71.60.0|get|0|89|0|0|0|2f7075626c69635f68746d6c2f636f72652f636f6e74726f6c6c6572732f686f6d655f636f6e74726f6c6c65722e706870|]
+Aug 23 17:11:17 10.71.60.0 u109183284 open "/public_html/core/models/home_model.php" flags READ mode 0666
+Aug 23 17:11:17 10.71.60.0 u109183284 close "/public_html/core/models/home_model.php" bytes read 2 written 0
+Aug 23 17:11:17 10.71.60.0 u109183284 [10.71.60.0|get|0|2|0|0|0|2f7075626c69635f68746d6c2f636f72652f6d6f64656c732f686f6d655f6d6f64656c2e706870|]
+Aug 23 17:11:17 10.71.60.0 u109183284 open "/public_html/db/db.php" flags READ mode 0666
+Aug 23 17:11:17 10.71.60.0 u109183284 close "/public_html/db/db.php" bytes read 215 written 0
+Aug 23 17:11:17 10.71.60.0 u109183284 [10.71.60.0|get|0|215|0|0|0|2f7075626c69635f68746d6c2f64622f64622e706870|]
+Aug 23 17:11:17 10.71.60.0 u109183284 open "/public_html/html/index/home_view.php" flags READ mode 0666
+Aug 23 17:11:17 10.71.60.0 u109183284 close "/public_html/html/index/home_view.php" bytes read 1913 written 0
+Aug 23 17:11:17 10.71.60.0 u109183284 [10.71.60.0|get|0|1913|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f696e6465782f686f6d655f766965772e706870|]
+Aug 23 17:11:17 10.71.60.0 u109183284 open "/public_html/html/overall/top_nav.php" flags READ mode 0666
+Aug 23 17:11:18 10.71.60.0 u109183284 close "/public_html/html/overall/top_nav.php" bytes read 152 written 0
+Aug 23 17:11:18 10.71.60.0 u109183284 [10.71.60.0|get|1|152|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f6f766572616c6c2f746f705f6e61762e706870|]
+Aug 23 17:11:18 10.71.60.0 u109183284 open "/public_html/html/overall/footer.php" flags READ mode 0666
+Aug 23 17:11:18 10.71.60.0 u109183284 open "/public_html/html/overall/header.php" flags READ mode 0666
+Aug 23 17:11:18 10.71.60.0 u109183284 close "/public_html/html/overall/header.php" bytes read 1561 written 0
+Aug 23 17:11:18 10.71.60.0 u109183284 [10.71.60.0|get|0|1561|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f6f766572616c6c2f6865616465722e706870|]
+Aug 23 17:11:18 10.71.60.0 u109183284 close "/public_html/html/overall/footer.php" bytes read 1215 written 0
+Aug 23 17:11:18 10.71.60.0 u109183284 [10.71.60.0|get|0|1215|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f6f766572616c6c2f666f6f7465722e706870|]
+Aug 23 17:12:18 10.71.60.0 u109183284 Connection closed by 10.71.60.0 port 48656
+Aug 23 17:12:18 10.71.60.0 u109183284 Connection closed by 10.71.60.0 port 48658
+Aug 23 17:12:18 10.71.60.0 u109183284 session closed for local user u109183284 from [10.71.60.0]
+Aug 23 17:12:18 10.71.60.0 u109183284 session closed for local user u109183284 from [10.71.60.0]
+Aug 23 17:35:07 10.71.60.0 u109183284 Connection from 10.71.60.0 port 59060 on 74.208.58.139 port 22
+Aug 23 17:35:30 10.71.60.0 u109183284 Failed password for u109183284 from 10.71.60.0 port 59060 ssh2
+Aug 23 17:35:32 10.71.60.0 u109183284 Failed password for u109183284 from 10.71.60.0 port 59060 ssh2
+Aug 23 17:39:01 10.71.60.0 u109183284 Connection from 10.71.60.0 port 60552 on 74.208.58.139 port 22
+Aug 23 17:39:08 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 60552 ssh2
+Aug 23 17:39:08 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 60552 id 0
+Aug 23 17:39:08 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 23 17:39:08 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:39:08 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:40:14 10.71.60.0 u109183284 open "/public_html/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:40:14 10.71.60.0 u109183284 close "/public_html/index.php" bytes read 0 written 1229
+Aug 23 17:40:14 10.71.60.0 u109183284 [10.71.60.0|put|0|1229|0|0|0|2f7075626c69635f68746d6c2f696e6465782e706870|]
+Aug 23 17:41:05 10.71.60.0 u109183284 remove name "/public_html/.htaccess"
+Aug 23 17:41:05 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f2e6874616363657373|]
+Aug 23 17:41:05 10.71.60.0 u109183284 remove name "/public_html/index.php"
+Aug 23 17:41:05 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f696e6465782e706870|]
+Aug 23 17:41:06 10.71.60.0 u109183284 remove name "/public_html/core/core.php"
+Aug 23 17:41:06 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f636f72652f636f72652e706870|]
+Aug 23 17:41:07 10.71.60.0 u109183284 remove name "/public_html/core/controllers/home_controller.php"
+Aug 23 17:41:07 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f636f72652f636f6e74726f6c6c6572732f686f6d655f636f6e74726f6c6c65722e706870|]
+Aug 23 17:41:07 10.71.60.0 u109183284 remove name "/public_html/core/controllers/errorController.php"
+Aug 23 17:41:07 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f636f72652f636f6e74726f6c6c6572732f6572726f72436f6e74726f6c6c65722e706870|]
+Aug 23 17:41:07 10.71.60.0 u109183284 remove name "/public_html/core/controllers/indexController.php"
+Aug 23 17:41:07 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f636f72652f636f6e74726f6c6c6572732f696e646578436f6e74726f6c6c65722e706870|]
+Aug 23 17:41:07 10.71.60.0 u109183284 rmdir name "/public_html/core/controllers"
+Aug 23 17:41:07 10.71.60.0 u109183284 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69635f68746d6c2f636f72652f636f6e74726f6c6c657273|]
+Aug 23 17:41:08 10.71.60.0 u109183284 remove name "/public_html/core/models/home_model.php"
+Aug 23 17:41:08 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f636f72652f6d6f64656c732f686f6d655f6d6f64656c2e706870|]
+Aug 23 17:41:08 10.71.60.0 u109183284 rmdir name "/public_html/core/models"
+Aug 23 17:41:08 10.71.60.0 u109183284 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69635f68746d6c2f636f72652f6d6f64656c73|]
+Aug 23 17:41:08 10.71.60.0 u109183284 rmdir name "/public_html/core"
+Aug 23 17:41:08 10.71.60.0 u109183284 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69635f68746d6c2f636f7265|]
+Aug 23 17:41:09 10.71.60.0 u109183284 remove name "/public_html/db/db.php"
+Aug 23 17:41:09 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f64622f64622e706870|]
+Aug 23 17:41:09 10.71.60.0 u109183284 rmdir name "/public_html/db"
+Aug 23 17:41:09 10.71.60.0 u109183284 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69635f68746d6c2f6462|]
+Aug 23 17:41:10 10.71.60.0 u109183284 remove name "/public_html/html/index/home_view.php"
+Aug 23 17:41:10 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f696e6465782f686f6d655f766965772e706870|]
+Aug 23 17:41:10 10.71.60.0 u109183284 rmdir name "/public_html/html/index"
+Aug 23 17:41:10 10.71.60.0 u109183284 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f696e646578|]
+Aug 23 17:41:11 10.71.60.0 u109183284 remove name "/public_html/html/overall/header.php"
+Aug 23 17:41:11 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f6f766572616c6c2f6865616465722e706870|]
+Aug 23 17:41:11 10.71.60.0 u109183284 remove name "/public_html/html/overall/footer.php"
+Aug 23 17:41:11 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f6f766572616c6c2f666f6f7465722e706870|]
+Aug 23 17:41:11 10.71.60.0 u109183284 remove name "/public_html/html/overall/top_nav.php"
+Aug 23 17:41:11 10.71.60.0 u109183284 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f6f766572616c6c2f746f705f6e61762e706870|]
+Aug 23 17:41:11 10.71.60.0 u109183284 rmdir name "/public_html/html/overall"
+Aug 23 17:41:11 10.71.60.0 u109183284 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69635f68746d6c2f68746d6c2f6f766572616c6c|]
+Aug 23 17:41:11 10.71.60.0 u109183284 rmdir name "/public_html/html"
+Aug 23 17:41:11 10.71.60.0 u109183284 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69635f68746d6c2f68746d6c|]
+Aug 23 17:41:12 10.71.60.0 u109183284 rmdir name "/public_html/views"
+Aug 23 17:41:12 10.71.60.0 u109183284 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69635f68746d6c2f7669657773|]
+Aug 23 17:41:12 10.71.60.0 u109183284 rmdir name "/public_html"
+Aug 23 17:41:12 10.71.60.0 u109183284 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69635f68746d6c|]
+Aug 23 17:41:22 10.71.60.0 u109183284 Connection from 10.71.60.0 port 61240 on 74.208.58.139 port 22
+Aug 23 17:41:22 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 61240 ssh2
+Aug 23 17:41:22 10.71.60.0 u109183284 Connection from 10.71.60.0 port 61242 on 74.208.58.139 port 22
+Aug 23 17:41:22 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 61242 ssh2
+Aug 23 17:41:23 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 61240 id 0
+Aug 23 17:41:23 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 61242 id 0
+Aug 23 17:41:23 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 23 17:41:23 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 23 17:41:23 10.71.60.0 u109183284 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:23 10.71.60.0 u109183284 close "/index.php" bytes read 0 written 1229
+Aug 23 17:41:23 10.71.60.0 u109183284 [10.71.60.0|put|0|1229|0|0|0|2f696e6465782e706870|]
+Aug 23 17:41:23 10.71.60.0 u109183284 open "/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:23 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:23 10.71.60.0 u109183284 close "/.htaccess" bytes read 0 written 482
+Aug 23 17:41:23 10.71.60.0 u109183284 [10.71.60.0|put|0|482|0|0|0|2f2e6874616363657373|]
+Aug 23 17:41:23 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:24 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:24 10.71.60.0 u109183284 mkdir name "/core" mode 0777
+Aug 23 17:41:24 10.71.60.0 u109183284 [10.71.60.0|mkdir|0|0|511|0|0|2f636f7265|]
+Aug 23 17:41:24 10.71.60.0 u109183284 mkdir name "/core/controllers" mode 0777
+Aug 23 17:41:24 10.71.60.0 u109183284 [10.71.60.0|mkdir|0|0|511|0|0|2f636f72652f636f6e74726f6c6c657273|]
+Aug 23 17:41:24 10.71.60.0 u109183284 open "/core/core.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:24 10.71.60.0 u109183284 close "/core/core.php" bytes read 0 written 465
+Aug 23 17:41:24 10.71.60.0 u109183284 [10.71.60.0|put|0|465|0|0|0|2f636f72652f636f72652e706870|]
+Aug 23 17:41:25 10.71.60.0 u109183284 open "/core/controllers/errorController.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:25 10.71.60.0 u109183284 close "/core/controllers/errorController.php" bytes read 0 written 447
+Aug 23 17:41:25 10.71.60.0 u109183284 [10.71.60.0|put|0|447|0|0|0|2f636f72652f636f6e74726f6c6c6572732f6572726f72436f6e74726f6c6c65722e706870|]
+Aug 23 17:41:25 10.71.60.0 u109183284 open "/core/controllers/home_controller.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:25 10.71.60.0 u109183284 open "/core/controllers/indexController.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:25 10.71.60.0 u109183284 close "/core/controllers/home_controller.php" bytes read 0 written 89
+Aug 23 17:41:25 10.71.60.0 u109183284 [10.71.60.0|put|0|89|0|0|0|2f636f72652f636f6e74726f6c6c6572732f686f6d655f636f6e74726f6c6c65722e706870|]
+Aug 23 17:41:25 10.71.60.0 u109183284 close "/core/controllers/indexController.php" bytes read 0 written 53
+Aug 23 17:41:25 10.71.60.0 u109183284 [10.71.60.0|put|0|53|0|0|0|2f636f72652f636f6e74726f6c6c6572732f696e646578436f6e74726f6c6c65722e706870|]
+Aug 23 17:41:25 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:25 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:25 10.71.60.0 u109183284 mkdir name "/core/models" mode 0777
+Aug 23 17:41:25 10.71.60.0 u109183284 [10.71.60.0|mkdir|0|0|511|0|0|2f636f72652f6d6f64656c73|]
+Aug 23 17:41:25 10.71.60.0 u109183284 mkdir name "/db" mode 0777
+Aug 23 17:41:25 10.71.60.0 u109183284 [10.71.60.0|mkdir|0|0|511|0|0|2f6462|]
+Aug 23 17:41:26 10.71.60.0 u109183284 open "/core/models/home_model.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:26 10.71.60.0 u109183284 open "/db/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:26 10.71.60.0 u109183284 close "/core/models/home_model.php" bytes read 0 written 2
+Aug 23 17:41:26 10.71.60.0 u109183284 [10.71.60.0|put|0|2|0|0|0|2f636f72652f6d6f64656c732f686f6d655f6d6f64656c2e706870|]
+Aug 23 17:41:26 10.71.60.0 u109183284 close "/db/db.php" bytes read 0 written 215
+Aug 23 17:41:26 10.71.60.0 u109183284 [10.71.60.0|put|0|215|0|0|0|2f64622f64622e706870|]
+Aug 23 17:41:26 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:26 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:26 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:26 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:27 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:27 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:41:27 10.71.60.0 u109183284 mkdir name "/html" mode 0777
+Aug 23 17:41:27 10.71.60.0 u109183284 [10.71.60.0|mkdir|0|0|511|0|0|2f68746d6c|]
+Aug 23 17:41:27 10.71.60.0 u109183284 mkdir name "/html" mode 0777
+Aug 23 17:41:27 10.71.60.0 u109183284 [10.71.60.0|mkdir|0|0|511|0|17|2f68746d6c|]
+Aug 23 17:41:27 10.71.60.0 u109183284 sent status Failure
+Aug 23 17:41:27 10.71.60.0 u109183284 mkdir name "/html/index" mode 0777
+Aug 23 17:41:27 10.71.60.0 u109183284 [10.71.60.0|mkdir|0|0|511|0|0|2f68746d6c2f696e646578|]
+Aug 23 17:41:27 10.71.60.0 u109183284 mkdir name "/html/overall" mode 0777
+Aug 23 17:41:27 10.71.60.0 u109183284 [10.71.60.0|mkdir|0|0|511|0|0|2f68746d6c2f6f766572616c6c|]
+Aug 23 17:41:28 10.71.60.0 u109183284 open "/html/index/home_view.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:28 10.71.60.0 u109183284 close "/html/index/home_view.php" bytes read 0 written 1913
+Aug 23 17:41:28 10.71.60.0 u109183284 [10.71.60.0|put|0|1913|0|0|0|2f68746d6c2f696e6465782f686f6d655f766965772e706870|]
+Aug 23 17:41:28 10.71.60.0 u109183284 open "/html/overall/footer.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:28 10.71.60.0 u109183284 close "/html/overall/footer.php" bytes read 0 written 1215
+Aug 23 17:41:28 10.71.60.0 u109183284 [10.71.60.0|put|0|1215|0|0|0|2f68746d6c2f6f766572616c6c2f666f6f7465722e706870|]
+Aug 23 17:41:28 10.71.60.0 u109183284 open "/html/overall/header.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:28 10.71.60.0 u109183284 open "/html/overall/top_nav.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:41:28 10.71.60.0 u109183284 close "/html/overall/header.php" bytes read 0 written 1561
+Aug 23 17:41:28 10.71.60.0 u109183284 [10.71.60.0|put|0|1561|0|0|0|2f68746d6c2f6f766572616c6c2f6865616465722e706870|]
+Aug 23 17:41:28 10.71.60.0 u109183284 close "/html/overall/top_nav.php" bytes read 0 written 152
+Aug 23 17:41:28 10.71.60.0 u109183284 [10.71.60.0|put|0|152|0|0|0|2f68746d6c2f6f766572616c6c2f746f705f6e61762e706870|]
+Aug 23 17:41:29 10.71.60.0 u109183284 mkdir name "/views" mode 0777
+Aug 23 17:41:29 10.71.60.0 u109183284 [10.71.60.0|mkdir|0|0|511|0|0|2f7669657773|]
+Aug 23 17:42:29 10.71.60.0 u109183284 Connection closed by 10.71.60.0 port 61242
+Aug 23 17:42:29 10.71.60.0 u109183284 session closed for local user u109183284 from [10.71.60.0]
+Aug 23 17:42:29 10.71.60.0 u109183284 Connection closed by 10.71.60.0 port 61240
+Aug 23 17:42:29 10.71.60.0 u109183284 session closed for local user u109183284 from [10.71.60.0]
+Aug 23 17:42:37 10.71.60.0 u109183284 Connection closed by 10.71.60.0 port 48542
+Aug 23 17:42:37 10.71.60.0 u109183284 session closed for local user u109183284 from [10.71.60.0]
+Aug 23 17:42:38 10.71.60.0 u109183284 Connection from 10.71.60.0 port 61564 on 74.208.58.139 port 22
+Aug 23 17:42:38 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 61564 ssh2
+Aug 23 17:42:38 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 61564 id 0
+Aug 23 17:42:38 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 23 17:45:05 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:45:05 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:45:05 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:45:05 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:45:11 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:45:11 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:45:11 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:45:11 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:46:52 10.71.60.0 u109183284 session closed for local user u109183284 from [10.71.60.0]
+Aug 23 17:46:52 10.71.60.0 u109183284 Connection closed by 10.71.60.0 port 60552
+Aug 23 17:48:01 10.71.60.0 u109183284 Connection from 10.71.60.0 port 63592 on 74.208.58.139 port 22
+Aug 23 17:48:07 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 63592 ssh2
+Aug 23 17:48:08 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 63592 id 0
+Aug 23 17:48:08 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 23 17:48:08 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:48:08 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:48:22 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:48:22 10.71.60.0 u109183284 sent status No such file
+Aug 23 17:49:35 10.71.60.0 u109183284 open "/html/index/home_view.php" flags READ mode 0666
+Aug 23 17:49:35 10.71.60.0 u109183284 close "/html/index/home_view.php" bytes read 1913 written 0
+Aug 23 17:49:35 10.71.60.0 u109183284 [10.71.60.0|get|0|1913|0|0|0|2f68746d6c2f696e6465782f686f6d655f766965772e706870|]
+Aug 23 17:50:06 10.71.60.0 u109183284 open "/html/index/home_view.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:50:06 10.71.60.0 u109183284 close "/html/index/home_view.php" bytes read 0 written 1918
+Aug 23 17:50:06 10.71.60.0 u109183284 [10.71.60.0|put|0|1918|0|0|0|2f68746d6c2f696e6465782f686f6d655f766965772e706870|]
+Aug 23 17:50:19 10.71.60.0 u109183284 open "/html/index/home_view.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Aug 23 17:50:19 10.71.60.0 u109183284 close "/html/index/home_view.php" bytes read 0 written 1913
+Aug 23 17:50:19 10.71.60.0 u109183284 [10.71.60.0|put|0|1913|0|0|0|2f68746d6c2f696e6465782f686f6d655f766965772e706870|]
+Aug 23 17:51:30 10.71.60.0 u109183284 session closed for local user u109183284 from [10.71.60.0]
+Aug 23 17:51:30 10.71.60.0 u109183284 Connection closed by 10.71.60.0 port 63592
+Aug 23 17:52:03 10.71.60.0 u109183284 Connection closed by 10.71.60.0 port 61564
+Aug 23 17:52:03 10.71.60.0 u109183284 session closed for local user u109183284 from [10.71.60.0]
+Aug 23 18:36:33 10.71.61.0 tmp109183284-7709 Connection closed by 10.71.61.0 port 50800
+Aug 23 18:36:33 10.71.61.0 tmp109183284-7709 session closed for local user tmp109183284-7709 from [10.71.61.0]
+Aug 23 18:36:33 10.71.61.0 tmp109183284-90 Connection closed by 10.71.61.0 port 50884
+Aug 24 12:35:11 10.71.60.0 u109183284 Connection from 10.71.60.0 port 63796 on 74.208.58.139 port 22
+Aug 24 12:35:12 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 63796 ssh2
+Aug 24 12:35:12 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 63796 id 0
+Aug 24 12:35:12 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 24 12:35:26 10.71.60.0 u109183284 Connection from 10.71.60.0 port 63820 on 74.208.58.139 port 22
+Aug 24 12:35:26 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 63820 ssh2
+Aug 24 12:35:26 10.71.60.0 u109183284 Connection from 10.71.60.0 port 63822 on 74.208.58.139 port 22
+Aug 24 12:35:26 10.71.60.0 u109183284 Accepted password for u109183284 from 10.71.60.0 port 63822 ssh2
+Aug 24 12:35:27 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 63820 id 0
+Aug 24 12:35:27 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 24 12:35:27 10.71.60.0 u109183284 Starting session: subsystem 'sftp' for u109183284 from 10.71.60.0 port 63822 id 0
+Aug 24 12:35:27 10.71.60.0 u109183284 session opened for local user u109183284 from [10.71.60.0]
+Aug 24 12:35:27 10.71.60.0 u109183284 open "/index.php" flags READ mode 0666
+Aug 24 12:35:27 10.71.60.0 u109183284 open "/.htaccess" flags READ mode 0666
+Aug 24 12:35:27 10.71.60.0 u109183284 close "/index.php" bytes read 1229 written 0
+Aug 24 12:35:27 10.71.60.0 u109183284 [10.71.60.0|get|0|1229|0|0|0|2f696e6465782e706870|]
+Aug 24 12:35:27 10.71.60.0 u109183284 close "/.htaccess" bytes read 482 written 0
+Aug 24 12:35:27 10.71.60.0 u109183284 [10.71.60.0|get|0|482|0|0|0|2f2e6874616363657373|]
+Aug 24 12:35:28 10.71.60.0 u109183284 open "/core/core.php" flags READ mode 0666
+Aug 24 12:35:28 10.71.60.0 u109183284 close "/core/core.php" bytes read 465 written 0
+Aug 24 12:35:28 10.71.60.0 u109183284 [10.71.60.0|get|0|465|0|0|0|2f636f72652f636f72652e706870|]
+Aug 24 12:35:28 10.71.60.0 u109183284 open "/core/controllers/indexController.php" flags READ mode 0666
+Aug 24 12:35:28 10.71.60.0 u109183284 close "/core/controllers/indexController.php" bytes read 53 written 0
+Aug 24 12:35:28 10.71.60.0 u109183284 [10.71.60.0|get|0|53|0|0|0|2f636f72652f636f6e74726f6c6c6572732f696e646578436f6e74726f6c6c65722e706870|]
+Aug 24 12:35:28 10.71.60.0 u109183284 open "/core/controllers/home_controller.php" flags READ mode 0666
+Aug 24 12:35:28 10.71.60.0 u109183284 open "/core/controllers/errorController.php" flags READ mode 0666
+Aug 24 12:35:28 10.71.60.0 u109183284 close "/core/controllers/home_controller.php" bytes read 89 written 0
+Aug 24 12:35:28 10.71.60.0 u109183284 [10.71.60.0|get|0|89|0|0|0|2f636f72652f636f6e74726f6c6c6572732f686f6d655f636f6e74726f6c6c65722e706870|]
+Aug 24 12:35:28 10.71.60.0 u109183284 close "/core/controllers/errorController.php" bytes read 447 written 0
+Aug 24 12:35:28 10.71.60.0 u109183284 [10.71.60.0|get|0|447|0|0|0|2f636f72652f636f6e74726f6c6c6572732f6572726f72436f6e74726f6c6c65722e706870|]
+Aug 24 12:35:29 10.71.60.0 u109183284 open "/core/models/home_model.php" flags READ mode 0666
+Aug 24 12:35:29 10.71.60.0 u109183284 open "/db/db.php" flags READ mode 0666
+Aug 24 12:35:29 10.71.60.0 u109183284 close "/core/models/home_model.php" bytes read 2 written 0
+Aug 24 12:35:29 10.71.60.0 u109183284 [10.71.60.0|get|0|2|0|0|0|2f636f72652f6d6f64656c732f686f6d655f6d6f64656c2e706870|]
+Aug 24 12:35:29 10.71.60.0 u109183284 close "/db/db.php" bytes read 215 written 0
+Aug 24 12:35:29 10.71.60.0 u109183284 [10.71.60.0|get|0|215|0|0|0|2f64622f64622e706870|]
+Aug 24 12:35:29 10.71.60.0 u109183284 open "/html/index/home_view.php" flags READ mode 0666
+Aug 24 12:35:30 10.71.60.0 u109183284 close "/html/index/home_view.php" bytes read 1913 written 0
+Aug 24 12:35:30 10.71.60.0 u109183284 [10.71.60.0|get|1|1913|0|0|0|2f68746d6c2f696e6465782f686f6d655f766965772e706870|]
+Aug 24 12:35:30 10.71.60.0 u109183284 open "/html/overall/top_nav.php" flags READ mode 0666
+Aug 24 12:35:30 10.71.60.0 u109183284 open "/html/overall/header.php" flags READ mode 0666
+Aug 24 12:35:30 10.71.60.0 u109183284 close "/html/overall/header.php" bytes read 1561 written 0
+Aug 24 12:35:30 10.71.60.0 u109183284 close "/html/overall/top_nav.php" bytes read 152 written 0
+Aug 24 12:35:30 10.71.60.0 u109183284 [10.71.60.0|get|0|1561|0|0|0|2f68746d6c2f6f766572616c6c2f6865616465722e706870|]
+Aug 24 12:35:30 10.71.60.0 u109183284 [10.71.60.0|get|0|152|0|0|0|2f68746d6c2f6f766572616c6c2f746f705f6e61762e706870|]
+Aug 24 12:35:30 10.71.60.0 u109183284 open "/html/overall/footer.php" flags READ mode 0666
+Aug 24 12:35:31 10.71.60.0 u109183284 close "/html/overall/footer.php" bytes read 1215 written 0
+Aug 24 12:35:31 10.71.60.0 u109183284 [10.71.60.0|get|1|1215|0|0|0|2f68746d6c2f6f766572616c6c2f666f6f7465722e706870|]
+Aug 24 12:35:31 10.71.60.0 u109183284 open "/logs/access.log.34.2.gz" flags READ mode 0666
+Aug 24 12:35:31 10.71.60.0 u109183284 close "/logs/access.log.34.2.gz" bytes read 2480 written 0
+Aug 24 12:35:31 10.71.60.0 u109183284 [10.71.60.0|get|0|2480|0|0|0|2f6c6f67732f6163636573732e6c6f672e33342e322e677a|]
+Aug 24 12:35:31 10.71.60.0 u109183284 open "/logs/access.log.34.3" flags READ mode 0666
+Aug 24 12:35:31 10.71.60.0 u109183284 open "/logs/sftp.log" flags READ mode 0666
+Aug 24 12:35:31 10.71.60.0 u109183284 sent status No such file
