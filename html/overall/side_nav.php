@@ -17,15 +17,8 @@
 					<li>
 						<a class="scroll-link" href="#section-1"><i class="fas fa-cog"></i> Quienes somos</a>
 					</li>
-					<li>
-						<a class="scroll-link" href="#section-2"><i class="fas fa-user"></i> Acerca de Nosotros</a>
-					</li>
-					<li>
-						<a class="scroll-link" href="#section-5"><i class="fas fa-pencil-alt"></i> Portfolio</a>
-					</li>
-					<li>
-						<a class="scroll-link" href="#section-6"><i class="fas fa-envelope"></i> Contacto</a>
-					</li>
+				
+					
 					<li>
 						<a href="#otherSections" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="otherSections">
 							<i class="fas fa-sync"></i>Other sections

@@ -1,4 +1,6 @@
 
+
+		
 		<!-- Wrapper -->
     	<div class="wrapper">
 
@@ -6,14 +8,16 @@
 			
 			<!-- Dark overlay -->
     		<div class="overlay"></div>
+                
+                <!-- open sidebar menu -->
+				<a class="btn btn-primary btn-customized open-menu" href="#" role="button">
+                    <i class="fas fa-align-left"></i> <span>Menu</span>
+                </a>
 
 			<!-- Content -->
 			<div class="content">
 			
-				<!-- open sidebar menu -->
-				<a class="btn btn-primary btn-customized open-menu" href="#" role="button">
-                    <i class="fas fa-align-left"></i> <span>Menu</span>
-                </a>
+		
 			
 		        <!-- Top content -->
 		        <div class="top-content section-container" id="top-content">
